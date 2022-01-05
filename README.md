@@ -1,4 +1,4 @@
-# API project with JWT Authentication
+# Online store done with Laravel v8
 I set up an online shop using Laravel v8.It's support login,register ,cart ,wishlist ,compareList, coupon system, ...etc ,also a administration panel! 
 
 ## Database structure
