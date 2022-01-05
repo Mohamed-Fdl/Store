@@ -1,0 +1,106 @@
+//slider style
+
+ .swiper-container {
+      width: 100%;
+      height:100%;
+
+    }
+    .slider-height-1{
+      	height: 530px;
+      	@media #{$tablet-device}{
+      		height: 430px;
+      	}
+      	@media #{$large-mobile}{
+      		height: 400px;
+      	}
+    }
+    .slider-height-2{
+      	height: 437px;
+      	@media #{$tablet-device}{
+      		height: 350px;
+      	}
+      	@media #{$large-mobile}{
+      		height: 300px;
+      	}
+    }
+    .slider-height-3{
+      	height: 530px;
+      	@media #{$tablet-device}{
+      		height: 430px;
+      	}
+      	@media #{$large-mobile}{
+      		height: 300px;
+      	}
+    }
+    .slider-height-4{
+      	height: 530px;
+      	@media #{$tablet-device}{
+      		height: 430px;
+      	}
+      	@media #{$large-mobile}{
+      		height: 300px;
+      	}
+    }
+
+    .slider-area{
+      	.bg-img{
+	      background-position: center center;
+		    background-size: cover;
+		    position: relative;
+		    z-index: 1;
+		    background-color: #bebebe;
+		    transition:all .3s ease-in-out !important;
+	      	&:after {
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    width: 100%;
+			    height: 100%;
+			    content: "";
+			    background: #fff;
+			    z-index: -1;
+			    opacity: .2;
+			}
+	    	.slider-content-1{
+				    	& span{
+				    	font-size: 17px;
+				    font-weight: 400;
+				    text-transform: uppercase;
+				    font-style: italic;
+				    margin-bottom: 10px;
+				    line-height: 1;
+				    display: block;
+				}
+				& h1{
+					    font-size: 45px;
+					    font-weight: 400;
+					    margin-bottom: 50px;
+					    line-height: 1;
+					    & strong{
+					    	font-weight: 700;
+					    }
+
+			      	@media #{$large-mobile}{
+			      		font-size: 32px;
+					    margin-bottom: 30px;
+			      	}
+				}
+					& a{
+				    width: 140px;
+				    height: 45px;
+				    line-height: 45px;
+				    text-align: center;
+				    display: inline-block;
+				    background-color: #146CDA;
+				    color: #fff;
+				    font-weight: 700;
+				    border-radius: 5px;
+				    font-size: 14px;
+					    &:hover{
+				    		background-color: $black;
+					    }
+					}
+	    	}
+    	}
+    }
+ 
